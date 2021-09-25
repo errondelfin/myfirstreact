@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={'https://i.postimg.cc/jd18NCLr/4-1619760206-1536778587-removebg-preview.png'} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. - erron
+          Pogi ako. - erron
         </p>
         <a
           className="App-link"
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React 
+          Learn React! 
         </a>
       </header>
     </div>
