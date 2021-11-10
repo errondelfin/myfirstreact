@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './components/Button';
+import Button from './components/Button.js';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         >
           Learn React! 
         </a>
+          <Button/>
       </header>
     </div>
   );
