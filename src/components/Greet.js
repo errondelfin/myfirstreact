@@ -1,7 +1,5 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+function Greet(){
+    return <h1>Hello Erron! </h1>
+}
 
-
+export default Greet
