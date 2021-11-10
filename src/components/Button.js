@@ -13,15 +13,13 @@ class Button extends React.component{
                     count : this.state.count + 1
                 }
                 )
-            
-        
-    this.state.count = this.state.count + 1
+ 
     }
   
     render(){
         return(
                <div>
-            <button onClick ={this.addCount}>click me :) </button>
+            <button onClick ={this.addCount}>click me! </button>
             <p>counting = {this.state.count}</p>
             </div>
         )
