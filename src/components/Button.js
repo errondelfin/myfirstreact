@@ -1,6 +1,6 @@
 import React from "react"
 
-class Button extends React.components{
+class Button extends React.Component{
     constructor(){
         super()
         this.state = {
