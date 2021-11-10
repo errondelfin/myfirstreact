@@ -1,30 +1,28 @@
 import React from "react"
 
-class Button extends React.Component {
+class Button extends React.component{
     constructor(){
         super()
         this.state = {
             count : 0
         }
     }
-
-    addCount = () => {
+        addCount = () =>{
         this.setState(
-        {
-            count : this.state.count + 1
-        }
-    )
-}
-
-    render() {
-
+                {
+                    count : this.state.count + 1
+                }
+                )
+ 
+    }
+  
+    render(){
         return(
-            <div>
-                <button onClick = {this.addCount}> Click Me!!!!!! </button>
-                <p>counting = {this.state.count}</p>
+               <div>
+            <button onClick ={this.addCount}>click me! </button>
+            <p>counting = {this.state.count}</p>
             </div>
         )
     }
 }
-
 export default Button
