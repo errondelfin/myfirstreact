@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={'https://i.postimg.cc/C5LbXXsb/final-614fdad5f79ba90085f11986-76434-removebg-preview.png'} className="App-logo" alt="logo" />
+        <img src={'https://i.postimg.cc/C5LbXXsb/final-614fdad5f79ba90085f11986-76434-removebg-preview.png'} className="App-logo" alt="photo" />
         <p>
           Pogi ako. - erron
         </p>
