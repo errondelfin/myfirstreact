@@ -4,7 +4,6 @@ import Button from './components/Button';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import Hello from './components/Hello';
-import employee from './components/Employee';
 import Employee from './components/Employee';
 function App() {
   return (
