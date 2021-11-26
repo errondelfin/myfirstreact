@@ -1,0 +1,5 @@
+function Greet(){
+    return <h1>Hello Erron!</h1>
+}
+
+export default Greet

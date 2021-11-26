@@ -1,7 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Button from './components/Button.js';
 
+import './App.css';
+import Button from './components/Button';
+import Greet from './components/Greet';
+import Message from './components/Message';
+import Hello from './components/Hello';
+import employee from './components/Employee';
+import Employee from './components/Employee';
 function App() {
   return (
     <div className="App">
@@ -10,6 +14,10 @@ function App() {
         <p>
           Pogi ako. - erron
         </p>
+        <Greet/>
+        <Message/>
+        <Employee/>
+    <p>{Hello()}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
