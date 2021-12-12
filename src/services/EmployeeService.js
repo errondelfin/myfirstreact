@@ -4,4 +4,19 @@ const getEmployees = () =>{
     return httpCommon.get('/employee/employees');
 }
 
-export default {getEmployees};
+const postEmployee = (data) =>{
+    return httpCommon.post('/employee/employees', data);
+}
+
+const getEmployee = (employeeId) =>{
+    return httpCommon.get(`/employee/employees/${employeeId}`);
+}
+
+const putEmployee = (data) =>{
+    return httpCommon.put('/employee/employees', data);
+}
+
+const deleteEmployee = (employeeId) =>{
+   return httpCommon.delete(`/employee/employees/${employeeId}`);
+}
+export default {getEmployees,postEmployee, postEmployee, putEmployee,deleteEmployee};
